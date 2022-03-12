@@ -1,7 +1,14 @@
 # Docker Getting Started Tutorial
+This is most simple example that show how to create linux alpine docker container and upload files into it.
 
-## Content Of The Docker
 
+## Content For The Docker Container
+There are only few files that are prepared to be uploaded into the container:
+
+hello_world_example:
+- Dockerfile
+- HelloWorld.txt
+- README.md
 
 ## Dockerfile
 In order to build docker image, first step is to design Dockerfile fine which should contain information about which files to copy to docker container.
@@ -11,7 +18,6 @@ In order to build docker image, first step is to design Dockerfile fine which sh
 FROM node:12-alpine AS app-base\
 WORKDIR /app\
 COPY . ./
-
 
 ## Build Image
 
