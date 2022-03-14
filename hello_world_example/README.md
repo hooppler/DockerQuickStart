@@ -21,7 +21,7 @@ COPY . ./
 
 ## Build Image
 
-.> docker build -t hello_world_html:1.0 .\
+.> docker build -t hello_world:1.0 .\
 ...\
 .> docker images
 
@@ -30,7 +30,7 @@ hello_world_html         latest      866463995ee0   25 seconds ago   91MB
 
 ## Create Container
 
-F: .. >docker run -it -d -p 8080:80 hello_world_html
+F: .. >docker run -it -d -p 8080:80 hello_world:1.0
 c9f3b34d61ff85383456f2ddc01004b34ec3066b4ef48f3f9cce983dbdaba51e
 
 F: .. >docker ps\
