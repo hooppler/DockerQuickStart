@@ -39,3 +39,7 @@ c9f3b34d61ff   hello_world_html   "docker-entrypoint.s…"   25 seconds ago   Up
 
 ## Enter Command Line Shell
 .> docker exec -it c9f /bin/sh
+
+## Execute Simple Shell Script
+/app # ./run_script.sh
+
