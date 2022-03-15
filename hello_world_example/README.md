@@ -8,6 +8,7 @@ There are only few files that are prepared to be uploaded into the container:
 hello_world_example:
 - Dockerfile
 - HelloWorld.txt
+- run_script.sh
 - README.md
 
 ## Dockerfile
