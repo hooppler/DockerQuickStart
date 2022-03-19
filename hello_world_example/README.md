@@ -31,7 +31,7 @@ hello_world_html         latest      866463995ee0   25 seconds ago   91MB
 
 ## Create Container
 
-F: .. >docker run -it -d -p 8080:80 hello_world:1.0
+F: .. >docker run -it -d -p 8080:80 hello_world:1.0\
 c9f3b34d61ff85383456f2ddc01004b34ec3066b4ef48f3f9cce983dbdaba51e
 
 F: .. >docker ps\
