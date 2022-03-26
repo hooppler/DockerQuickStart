@@ -1,0 +1,24 @@
+.menu {
+	background-color: #333;
+	display: inline;
+}
+
+.inline {
+	display: inline;
+	padding: 14px 16px;
+
+}
+
+.menu_list {
+	background-color: #333;
+	padding: 14px 16px;}
+
+.menu_content {
+	color: white;
+	padding: 14px 16px;
+}
+
+.menu_content:hover {
+	background-color: red;
+}
+
